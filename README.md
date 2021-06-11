@@ -1,5 +1,7 @@
-# Identity-jwt-asymmetric demo
-This repo configures an existing vault instance, uses the Identity engine to create JWT tokens, validates the tokens, and rotates keys.
+# vault-identity-jwt
+This repo configures an existing vault instance, uses the Identity engine to create JWT tokens, validates the tokens, and rotates keys.  The hcp-demo script will configure HCP vault and run through all steps of the demo.
+
+Demo Slides can be found here [Vault and OAuth 2.0](https://docs.google.com/presentation/d/1XYowb_MVyCdfnv_mRI7zaw2__Kb9TKTUuRfHa-2yilM/edit#slide=id.p)
 
 ## Demo
 This demo assumes a running HCP Vault instance, and your shells has the following variables set.
